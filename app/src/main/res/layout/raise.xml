@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark"
+    android:orientation="vertical"
+    tools:context=".raise">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Raise"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        />
+<!--    <CheckBox android:id="@+id/checkbox_meat"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Donor"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="25dp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_marginStart="220dp"-->
+<!--        android:onClick="onCheckboxClicked"/>-->
+
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/checkbox_cheese"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:onClick="onCheckboxClicked"-->
+<!--        android:text="Donee"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:layout_marginTop="-50dp"-->
+<!--        android:textSize="25dp"-->
+<!--        android:layout_marginStart="30dp"-->
+<!--        android:textStyle="bold" />-->
+    <RadioButton
+        android:id="@+id/radioButton1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Donor"
+        android:textColor="@color/white"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp" />
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Donee"
+        android:textColor="@color/white"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="-50dp"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/nameEdit1"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="19dp"
+        android:background="@drawable/shaps"
+        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+        android:drawablePadding="10dp"
+        android:hint="Your Name:"
+        android:padding="11dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/phoneEdit1"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="19dp"
+        android:background="@drawable/shaps"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:hint="Mobile Number:"
+        android:padding="11dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/emailEdit1"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="19dp"
+        android:background="@drawable/shaps"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/ic_baseline_mail_24"
+        android:drawablePadding="10dp"
+        android:hint="Required type:"
+        android:padding="11dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/PasswordEdit1"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="19dp"
+        android:background="@drawable/shaps"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:hint="Discription:"
+        android:padding="11dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/shaps2"
+        android:gravity="center"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>

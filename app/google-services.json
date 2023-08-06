@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "484999307506",
+    "project_id": "donee-46fc4",
+    "storage_bucket": "donee-46fc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484999307506:android:38387aa61741ee87ceb06b",
+        "android_client_info": {
+          "package_name": "com.bharat.donee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484999307506-0j2808gn8ifnep9qihrj5pvb920709jj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOOWe5ZgOlGOHN9E4475A0j-j-H4xnVpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484999307506-0j2808gn8ifnep9qihrj5pvb920709jj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

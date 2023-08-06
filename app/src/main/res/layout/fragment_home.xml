@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark"
+    tools:context=".Home">
+
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/shaps2"
+        android:text="Donee"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+       android:id="@+id/btn"
+       android:layout_width="290dp"
+       android:layout_height="wrap_content"
+       android:text="Donor"
+       android:textSize="20dp"
+       android:textStyle="bold"
+       android:background="@drawable/shaps2"
+       android:layout_marginStart="-290dp"
+       android:layout_marginTop="400dp"/>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:text="By:BKRT"
+      android:textSize="16dp"
+      android:layout_marginTop="670dp"
+      android:layout_marginStart="-172dp"
+      android:textStyle="italic"
+      android:textColor="@color/white"/>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dark"
+    tools:context=".loginActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="140dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/emailEdit1"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:hint="E-mail Address:"
+        android:drawableLeft="@drawable/ic_baseline_mail_24"
+        android:textColorHint="@color/white"
+       android:textColor="@color/white"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/shaps"
+        android:drawablePadding="10dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:padding="11dp"/>
+    <EditText
+        android:id="@+id/PasswordEdit1"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:hint="Password:"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/shaps"
+        android:drawablePadding="10dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:padding="11dp"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shaps2"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textLogin"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account ? SignUp"
+        android:textSize="12dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="21dp"
+        android:layout_marginStart="10dp"/>
+
+
+
+
+</LinearLayout>
